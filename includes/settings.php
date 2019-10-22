@@ -6,5 +6,5 @@
 	define("DEFAULT_FONT","\"Verdana\"");
 	define("ALLOW_NAME_CHANGE","TRUE");
 	define("NAME_CHANGE_ADMIN_ONLY", "FALSE");	
-	define("PATH", "http://www.triadsoftware.net/Chat/");
+	define("PATH", "http://chat.kevharl.com/NotChat/");
 ?>
