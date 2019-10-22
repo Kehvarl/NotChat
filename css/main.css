@@ -1,0 +1,60 @@
+html 
+{
+	font-size: 100.01%;
+}
+
+body
+{background-color: #000000;
+	font-size: 14px;
+}
+
+a:link, a:active, a:visited {color: #6daee8; text-decoration: none; font-weight: bold; } 
+
+a:hover  {border: none;  font-weight: bold; text-decoration: none; cursor: crosshair; color: #00fffc;}
+
+.userlist
+{
+	margin: 0 2em 1px 2em;
+	width: auto;
+}
+
+.chat
+{
+	padding: 0 2em 0 2em;
+}
+
+.username
+{
+	font-weight: bold;
+}
+
+.post
+{
+	overflow: hidden;
+}
+
+.PM
+{
+	border: 1px solid;
+}
+
+.time
+{
+	font-size: .75em;
+}
+
+.ngm
+{
+	 color: #99FFCC;
+	margin: 0px;
+}
+.nnar
+{
+	 color: #FFFF00;
+	margin: 0px;
+}
+.nson
+{
+	 color: #FF8080;
+	margin: 0px;
+}

@@ -1,0 +1,26 @@
+Install
+	1.) Place the contents of the NotNaked directory in a directory on your webserver 
+ 	    (eg: public_html/Chat/)
+
+	2.) Move .htpasswd.MOVE to your home directory and rename to .htpassword 
+	    (eg: /home/mysite/.htpasswd)
+
+	3.) Edit .htaccess to reflect the location of your .htpasswd file 
+	    (eg: /home/mysite/.htpasswd)
+	4.) Edit .htppasswd and include usernames/passwords for each user who will access
+	    adminLogs.php
+	    HINT: Use http://www.htaccesstools.com/htpasswd-generator/ 
+	    HINT2: Instead of individual accounts you can create a single "admin" account and 			    give all of your admins access (default configuration: admin/secret)
+	5.) Edit includes/settings.php
+	    Set your default textcolor and set the PATH to the location to direct users to on logging 	    out
+
+Rooms
+	1.) Copy the index.html file to a new name (eg: roleplay.html)
+	2.) Edit the new file
+	    a.) Find the line <frame name="Index" src="login.php?chat=Main" />
+	    b.) Change "Main" to the unique identifier for the new room (eg: roleplay)
+
+Other Features
+	The IP banning, user-harrasment, and registered users features are currently not compatible
+	with the latest version of NotNaked (NN2_2013).  There is currently no ETA for repairing
+	these features.

@@ -1,0 +1,38 @@
+ html {font-size: 100.01%;}
+body
+{
+}
+
+a:link, a:active, a:visited {color: #5b8d22; text-decoration: none; font-weight: bold; } 
+
+a:hover  {border: none;  font-weight: bold; text-decoration: none; cursor: crosshair; color: #99cc00}
+
+.forumposts
+{
+}
+
+.bannerad
+{
+}
+
+.titlecontainer
+{
+	float: right;
+	text-align: center;
+}
+
+.title
+{
+	letter-spacing: -5;
+	line-height: 10px;
+	font-family: "Times New Roman";
+	font-size: 32px;
+}
+
+.indexlink
+{
+	margin-top: 5px;
+	font-size:10; 
+	font-weight: bold;  
+	letter-spacing:1;
+}

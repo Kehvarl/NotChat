@@ -1,0 +1,72 @@
+/
+	Admin/
+		ip.txt
+		nopm.dat
+		postfix.dat
+		registered_users.dat
+		rf.dat
+	css/
+		bottom.css
+		colors.css
+		main.css
+		top.css
+	docs/
+		NN2_file_structure
+	includes/
+		chattags.php -- Handle BBCode and Emoticons
+		display.php --  Prepare posts for storage in chat temp files
+		logging.php -- Handle logging of posts
+		postfix.php -- Handle "random" post failure frequency
+		rot13.php -- Provide minimal enciphering for non-public post data
+		settings.php -- Settings for this install
+		timeout.php -- User Timeout Handling
+		userdata.php -- Handle Logged-in User Data Files
+	logs/
+		* -- All chat log files
+	Main/
+		Main.dat
+		Main.motd
+		Main_banlist.dat
+		Main_usr.dat
+	resources/
+		bottom.gif
+		CollectedQuotes.dat
+		colorlist.dat
+		music.gif
+		top.gif
+	template_engine/
+		template.php -- Old Template Engine
+	templates/
+		bottom.tpl
+		chat.tpl
+		chatform.tpl
+		enterform.tpl
+		frameset.tpl
+		main.tpl
+		top.tpl
+	8dh3jg.php -- Log administration
+	banned.php
+	chatform.php
+	enter.php
+	frame.php
+	index.html
+	login.php
+	notchat.php -- Core Functionality
+		login ($username, $login_message, $logout_message, $chat, 
+			$color="000000", $font="Courrier New", $bgcolor="000000", $emot=1, 
+			$font_opt=1, $bg_opt=1)	
+		logout ($username, $UID, $chat, $logout_message)
+		Post_Message($username, $UID, $message, $logout_message, 
+			$chat="Main", $color="FFFFFF", $font="verdana", $bgcolor="000000", 
+			$emot=1, $font_opt=1, $bg_opt=1 , $ignore="")
+		Process_Command($username, $UID, $message, 
+			$logout_message, $chat, $color, $font, $bgcolor, $emot, $font_opt, $bg_opt, $ignore)
+		make_seed()
+		GetOldUID($tchat)
+		Update_DataFile($chat, $UID, $username, $time)
+		IsLoggedIn($username)
+		IsAdmin($adminpass)
+	preview.php
+	show.php
+	timeout.php
+	title.php

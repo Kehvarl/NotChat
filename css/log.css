@@ -1,0 +1,44 @@
+ html {font-size: 100.01%;}
+body
+{
+	font-size: 14px;
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+div.loglist
+{
+	margin-bottom: 1em;
+}
+
+	li
+	{
+		line-height: 1.2em;
+	}
+
+		li.reset
+		{
+			margin-top: -6em;
+		}
+
+		li.column1 
+		{ 
+			margin-left: 0em; 
+		}
+
+		li.column2 
+		{ 
+			margin-left: 10em; 
+		}
+
+		li.column3 
+		{ 
+			margin-left: 20em; 
+		}
+
+div.logshow
+{
+}

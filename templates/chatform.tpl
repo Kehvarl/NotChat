@@ -1,0 +1,37 @@
+<form name="cfrm" method=post action="{ACTION}">
+	<input type=hidden name=username value={USERNAME}>
+	<input type=hidden name=UID value={UID}>
+	<input type=hidden name=font value={FONT}>
+	<input type=hidden name=chat value={CHAT}>
+	<input type=hidden name=emot value={EMOT}>
+	<input type=hidden name=bg_opt value={BGOPT}>
+	<input type=hidden name=font_opt value={FONTOPT}>
+	<input type=hidden name=ignore value = {IGNORE}>
+	<input type=hidden name=logout_message value="">
+	<input type=hidden name=action value="post">
+
+	<span>
+		Your Message: 
+	</span>
+	<input type=text size=60 name=message>
+
+	<span>
+		Color: 
+	</span>
+	<select name="color">
+		{COLORLIST}
+	</select>
+
+	<input type=submit value="Post">
+</form>
+
+<form name=lofrm method=post action="{ACTION}" target=_top>
+	<input type=hidden name=username value={USERNAME}>
+	<input type=hidden name=UID value={UID}>
+	<input type=hidden name=chat value={CHAT}>
+	<input type=hidden name=color value={COLOR}>
+	<input type=hidden name=font value={FONT}>
+	<input type=hidden name=logout_message value="">
+	<input type=hidden name=action value=logout>
+	<input type=submit value="Logout">
+</form>

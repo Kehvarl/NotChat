@@ -1,0 +1,41 @@
+ html {font-size: 100.01%;}
+body
+{
+}
+
+a:link, a:active, a:visited {color: #6daee8; text-decoration: none; font-weight: bold; } 
+
+a:hover  {border: none;  font-weight: bold; text-decoration: none; cursor: crosshair; color: #00fffc;}
+
+.reload
+{
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.bottomform
+{
+}
+
+	.bottomform form
+	{
+		display: inline;
+		padding: 0 1em 0 1em;
+	}
+
+	.bottomform form span
+	{
+		font-weight: bold;
+	}
+
+textarea, select, input, button
+{
+	font-family: verdana; 
+	font-size: 12px; 
+	font-weight: normal; 
+	border: 1px solid;
+	background-color: #000000; 
+	color: #c0c0c0; 
+	border: 1px solid #6daee8;
+	padding: 2px;
+}

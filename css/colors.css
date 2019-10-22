@@ -1,0 +1,77 @@
+ html {font-size: 100.01%;}
+body
+{
+	background-color: #000000;
+	color: #c0c0c0;
+	scrollbar-base-color: #000000;
+	scrollbar-arrow-color: #ffffff;
+}
+
+a:link, a:active, a:visited {color: #6daee8; text-decoration: none; font-weight: bold; } 
+
+a:hover  {border: none;  font-weight: bold; text-decoration: none; cursor: crosshair; color: #00fffc;}
+
+ html {font-size: 100.01%;}
+body.top
+{
+	background: url('../resources/bg-top.gif');
+}
+
+ html {font-size: 100.01%;}
+body.main
+{
+}
+
+ html {font-size: 100.01%;}
+
+.userlist
+{
+	border-color: #c0c0c0;
+}
+
+.chat
+{
+}
+
+.username
+{
+}
+
+.post
+{
+}
+
+.PM
+{
+	border-color: #c0c0c0;
+}
+
+.time
+{
+}
+
+.reload
+{
+	color: #c0c0c0;
+}
+
+.bottomform
+{
+	color: #c0c0c0;
+}
+
+	.bottomform form
+	{
+	}
+
+	.bottomform form span
+	{
+	}
+
+textarea, select, input, button
+{
+	background-color: #000000; 
+	color: #c0c0c0; 
+	border: 1px solid #6daee8;
+	padding: 2px;
+}
